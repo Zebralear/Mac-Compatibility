@@ -64,9 +64,6 @@
     <Reference Include="UnityEngine">
       <HintPath>/Users/zachary/Library/Application Support/Steam/steamapps/common/Subnautica/Subnautica.app/Contents/Resources/Data/Managed/UnityEngine.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Analytics">
-      <HintPath>/Users/zachary/Library/Application Support/Steam/steamapps/common/Subnautica/Subnautica.app/Contents/Resources/Data/Managed/UnityEngine.Analytics.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.Networking">
       <HintPath>/Users/zachary/Library/Application Support/Steam/steamapps/common/Subnautica/Subnautica.app/Contents/Resources/Data/Managed/UnityEngine.Networking.dll</HintPath>
     </Reference>
@@ -75,9 +72,6 @@
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>/Users/zachary/Library/Application Support/Steam/steamapps/common/Subnautica/Subnautica.app/Contents/Resources/Data/Managed/UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.VR">
-      <HintPath>/Users/zachary/Library/Application Support/Steam/steamapps/common/Subnautica/Subnautica.app/Contents/Resources/Data/Managed/UnityEngine.VR.dll</HintPath>
     </Reference>
     <Reference Include="UnityScript.Lang">
       <HintPath>/Users/zachary/Library/Application Support/Steam/steamapps/common/Subnautica/Subnautica.app/Contents/Resources/Data/Managed/UnityScript.Lang.dll</HintPath>
