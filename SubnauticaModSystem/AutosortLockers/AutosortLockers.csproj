@@ -16,23 +16,6 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
-<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="$(MSBuildExtensionsPath)/$(MSBuildToolsVersion)/Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)/$(MSBuildToolsVersion)/Microsoft.Common.props')" />
-  <PropertyGroup>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6C883B28-31E6-4C26-B32B-BF5BE0D70190}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AutosortLockers</RootNamespace>
-    <AssemblyName>AutosortLockers</AssemblyName>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
-    <FileAlignment>512</FileAlignment>
-    <TargetFrameworkProfile />
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <DebugSymbols>true</DebugSymbols>
-    <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>bin/Debug/</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
@@ -52,25 +35,25 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="0Harmony">
-      <HintPath>/Users/zachary/Library/Application Support/Steam/steamapps/common/Subnautica/Subnautica.app/Contents/Managed/0Harmony.dll</HintPath>
+      <HintPath>D:[/Users/zachary/Library/Application Support/Steam/steamapps/common/Subnautica/QMods/AutosortLockers/AutosortLockers.csproj</HintPath>
     </Reference>
     <Reference Include="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>~/Steam/steamapps/common/Subnautica/Subnautica.app/Contents/Managed/Assembly-CSharp.dll</HintPath>
+      <HintPath>~/"Application Support"/Steam/steamapps/common/Subnautica/Subnautica.app/Managed/Assembly-CSharp.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>~/Steam/steamapps/common/Subnautica/Subnautica.app/Contents/Managed/Assembly-CSharp-firstpass.dll</HintPath>
+      <HintPath>~/"Application Support"/Steam/steamapps/common/Subnautica/Subnautica.app/Managed/Assembly-CSharp-firstpass.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-UnityScript">
-      <HintPath>~/Steam/steamapps/common/Subnautica/Subnautica.app/Contents/Managed/Assembly-UnityScript.dll</HintPath>
+      <HintPath>~/"Application Support"/Steam/steamapps/common/Subnautica/Subnautica.app/Managed/Assembly-UnityScript.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-UnityScript-firstpass">
-      <HintPath>~/Steam/steamapps/common/Subnautica/Subnautica.app/Contents/Managed/Assembly-UnityScript-firstpass.dll</HintPath>
+      <HintPath>~/"Application Support"/Steam/steamapps/common/Subnautica/Subnautica.app/Managed/Assembly-UnityScript-firstpass.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>~/Steam/steamapps/common/Subnautica/Subnautica.app/Contents/Managed/Newtonsoft.Json.dll</HintPath>
+      <HintPath>~/"Application Support"/Steam/steamapps/common/Subnautica/Subnautica.app/Managed/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -79,25 +62,25 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
     <Reference Include="UnityEngine">
-      <HintPath>~/Steam/steamapps/common/Subnautica/Subnautica.app/Contents/Managed/UnityEngine.dll</HintPath>
+      <HintPath>~/"Application Support"/Steam/steamapps/common/Subnautica/Subnautica.app/Managed/UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Analytics">
-      <HintPath>~/Steam/steamapps/common/Subnautica/Subnautica.app/Contents/Managed/UnityEngine.Analytics.dll</HintPath>
+      <HintPath>~/"Application Support"/Steam/steamapps/common/Subnautica/Subnautica.app/Managed/UnityEngine.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Networking">
-      <HintPath>~/Steam/steamapps/common/Subnautica/Subnautica.app/Contents/Managed/UnityEngine.Networking.dll</HintPath>
+      <HintPath>~/"Application Support"/Steam/steamapps/common/Subnautica/Subnautica.app/Managed/UnityEngine.Networking.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.PerformanceTesting">
-      <HintPath>~/Steam/steamapps/common/Subnautica/Subnautica.app/Contents/Managed/UnityEngine.PerformanceTesting.dll</HintPath>
+      <HintPath>~/"Application Support"/Steam/steamapps/common/Subnautica/Subnautica.app/Managed/UnityEngine.PerformanceTesting.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>~/Steam/steamapps/common/Subnautica/Subnautica.app/Contents/Managed/UnityEngine.UI.dll</HintPath>
+      <HintPath>~/"Application Support"/Steam/steamapps/common/Subnautica/Subnautica.app/Managed/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VR">
-      <HintPath>~/Steam/steamapps/common/Subnautica/Subnautica.app/Contents/Managed/UnityEngine.VR.dll</HintPath>
+      <HintPath>~/"Application Support"/Steam/steamapps/common/Subnautica/Subnautica.app/Managed/UnityEngine.VR.dll</HintPath>
     </Reference>
     <Reference Include="UnityScript.Lang">
-      <HintPath>~/Steam/steamapps/common/Subnautica/Subnautica.app/Contents/Managed/UnityScript.Lang.dll</HintPath>
+      <HintPath>~/"Application Support"/Steam/steamapps/common/Subnautica/Subnautica.app/Managed/UnityScript.Lang.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -141,129 +124,11 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup />
-  <Import Project="..\Common\Common.projitems" Label="Shared" />
-  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="../Common/Common.projitems" Label="Shared" />
+  <Import Project="$(MSBuildToolsPath)/Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent> $(TargetPath) ~/Steam/steamapps/common/Subnautica/QMods/AutosortLockers/ /q /y
-      $(ProjectDir)mod.json /q /y
-      $(ProjectDir)Assets /q /y /i
-    </PostBuildEvent>
-  </PropertyGroup>
-</Project>
- <Optimize>false</Optimize>
-    <OutputPath>bin/Debug/</OutputPath>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <DebugType>pdbonly</DebugType>
-    <Optimize>true</Optimize>
-    <OutputPath>bin/Release/</OutputPath>
-    <DefineConstants>TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <PropertyGroup>
-    <RunPostBuildEvent>Always</RunPostBuildEvent>
-  </PropertyGroup>
-  <ItemGroup>
-    <Reference Include="0Harmony">
-      <HintPath>~/Steam/steamapps/common/Subnautica/Subnautica.app/Contents/Managed/0Harmony.dll</HintPath>
-    </Reference>
-    <Reference Include="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>~/Steam/steamapps/common/Subnautica/Subnautica.app/Contents/Managed/Assembly-CSharp.dll</HintPath>
-    </Reference>
-    <Reference Include="Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>~/Steam/steamapps/common/Subnautica/Subnautica.app/Contents/Managed/Assembly-CSharp-firstpass.dll</HintPath>
-    </Reference>
-    <Reference Include="Assembly-UnityScript">
-      <HintPath>~/Steam/steamapps/common/Subnautica/Subnautica.app/Contents/Managed/Assembly-UnityScript.dll</HintPath>
-    </Reference>
-    <Reference Include="Assembly-UnityScript-firstpass">
-      <HintPath>~/Steam/steamapps/common/Subnautica/Subnautica.app/Contents/Managed/Assembly-UnityScript-firstpass.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>~/Steam/steamapps/common/Subnautica/Subnautica.app/Contents/Managed/Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="System" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Xml" />
-    <Reference Include="UnityEngine">
-      <HintPath>~/Steam/steamapps/common/Subnautica/Subnautica.app/Contents/Managed/UnityEngine.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Analytics">
-      <HintPath>~/Steam/steamapps/common/Subnautica/Subnautica.app/Contents/Managed/UnityEngine.Analytics.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Networking">
-      <HintPath>~/Steam/steamapps/common/Subnautica/Subnautica.app/Contents/Managed/UnityEngine.Networking.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.PerformanceTesting">
-      <HintPath>~/Steam/steamapps/common/Subnautica/Subnautica.app/Contents/Managed/UnityEngine.PerformanceTesting.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>~/Steam/steamapps/common/Subnautica/Subnautica.app/Contents/Managed/UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.VR">
-      <HintPath>~/Steam/steamapps/common/Subnautica/Subnautica.app/Contents/Managed/UnityEngine.VR.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityScript.Lang">
-      <HintPath>~/Steam/steamapps/common/Subnautica/Subnautica.app/Contents/Managed/UnityScript.Lang.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="AutosorterCategories.cs" />
-    <Compile Include="AutosortTarget.cs" />
-    <Compile Include="AutosortLocker.cs" />
-    <Compile Include="AutosortTypePicker.cs" />
-    <Compile Include="ColorPicker.cs" />
-    <Compile Include="ColorPickerButton.cs" />
-    <Compile Include="ColorPickerPageButton.cs" />
-    <Compile Include="ColorSetting.cs" />
-    <Compile Include="ColoredIconButton.cs" />
-    <Compile Include="Config.cs" />
-    <Compile Include="CustomizeScreen.cs" />
-    <Compile Include="LabelController.cs" />
-    <Compile Include="ModSaver.cs" />
-    <Compile Include="Patches/BuilderUtils_Patches.cs" />
-    <Compile Include="Picker.cs" />
-    <Compile Include="PickerPageButton.cs" />
-    <Compile Include="PickerCloseButton.cs" />
-    <Compile Include="ConfigureButton.cs" />
-    <Compile Include="Logger.cs" />
-    <Compile Include="ModLoaderIntegration.cs" />
-    <Compile Include="Mod.cs" />
-    <Compile Include="PickerButton.cs" />
-    <Compile Include="Properties/AssemblyInfo.cs" />
-    <Compile Include="Properties/Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
-    <Compile Include="SaveData.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="mod.json" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Properties/Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup />
-  <Import Project="..\Common\Common.projitems" Label="Shared" />
-  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <PropertyGroup>
-    <PostBuildEvent> $(TargetPath) ~/Steam/steamapps/common/Subnautica/QMods/AutosortLockers/ /q /y
-      $(ProjectDir)mod.json /q /y
-      $(ProjectDir)Assets /q /y /i
-    </PostBuildEvent>
+    <PostBuildEvent>xcopy $(TargetPath) ~/"Application Support"/Steam/steamapps/common/Subnautica/QMods/AutosortLockers/ /q /y
+xcopy $(ProjectDir)mod.json ~/"Application Support"/Steam/steamapps/common/Subnautica/QMods/AutosortLockers/ /q /y
+xcopy $(ProjectDir)Assets ~/"Application Support"/Steam/steamapps/common/Subnautica/QMods/AutosortLockers/Assets/ /q /y /i</PostBuildEvent>
   </PropertyGroup>
 </Project>
