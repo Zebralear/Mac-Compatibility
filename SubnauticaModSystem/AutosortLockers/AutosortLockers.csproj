@@ -35,25 +35,25 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="0Harmony">
-      <HintPath>D:[/Users/zachary/Library/Application Support/Steam/steamapps/common/Subnautica/QMods/AutosortLockers/AutosortLockers.csproj</HintPath>
+      <HintPath>~/Library/Application Support/Steam/steamapps/common/Subnautica/Subnautica.app/Contents/Managed/0Harmony.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>~/"Application Support"/Steam/steamapps/common/Subnautica/Subnautica.app/Managed/Assembly-CSharp.dll</HintPath>
+      <HintPath>/Users/zachary/Library/Application Support/Steam/steamapps/common/Subnautica/Subnautica.app/Contents/Resources/Data/Managed/Assembly-CSharp.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>~/"Application Support"/Steam/steamapps/common/Subnautica/Subnautica.app/Managed/Assembly-CSharp-firstpass.dll</HintPath>
+      <HintPath>/Users/zachary/Library/Application Support/Steam/steamapps/common/Subnautica/Subnautica.app/Contents/Resources/Data/Managed/Assembly-CSharp-firstpass.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-UnityScript">
-      <HintPath>~/"Application Support"/Steam/steamapps/common/Subnautica/Subnautica.app/Managed/Assembly-UnityScript.dll</HintPath>
+      <HintPath>/Users/zachary/Library/Application Support/Steam/steamapps/common/Subnautica/Subnautica.app/Contents/Resources/Data/Managed/Assembly-UnityScript.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-UnityScript-firstpass">
-      <HintPath>~/"Application Support"/Steam/steamapps/common/Subnautica/Subnautica.app/Managed/Assembly-UnityScript-firstpass.dll</HintPath>
+      <HintPath>/Users/zachary/Library/Application Support/Steam/steamapps/common/Subnautica/Subnautica.app/Contents/Resources/Data/Managed/Assembly-UnityScript-firstpass.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>~/"Application Support"/Steam/steamapps/common/Subnautica/Subnautica.app/Managed/Newtonsoft.Json.dll</HintPath>
+      <HintPath>/Users/zachary/Library/Application Support/Steam/steamapps/common/Subnautica/Subnautica.app/Contents/Resources/Data/Managed/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -62,25 +62,25 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
     <Reference Include="UnityEngine">
-      <HintPath>~/"Application Support"/Steam/steamapps/common/Subnautica/Subnautica.app/Managed/UnityEngine.dll</HintPath>
+      <HintPath>/Users/zachary/Library/Application Support/Steam/steamapps/common/Subnautica/Subnautica.app/Contents/Resources/Data/Managed/UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Analytics">
-      <HintPath>~/"Application Support"/Steam/steamapps/common/Subnautica/Subnautica.app/Managed/UnityEngine.Analytics.dll</HintPath>
+      <HintPath>/Users/zachary/Library/Application Support/Steam/steamapps/common/Subnautica/Subnautica.app/Contents/Resources/Data/Managed/UnityEngine.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Networking">
-      <HintPath>~/"Application Support"/Steam/steamapps/common/Subnautica/Subnautica.app/Managed/UnityEngine.Networking.dll</HintPath>
+      <HintPath>/Users/zachary/Library/Application Support/Steam/steamapps/common/Subnautica/Subnautica.app/Contents/Resources/Data/Managed/UnityEngine.Networking.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.PerformanceTesting">
-      <HintPath>~/"Application Support"/Steam/steamapps/common/Subnautica/Subnautica.app/Managed/UnityEngine.PerformanceTesting.dll</HintPath>
+      <HintPath>/Users/zachary/Library/Application Support/Steam/steamapps/common/Subnautica/Subnautica.app/Contents/Resources/Data/Managed/UnityEngine.PerformanceTesting.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>~/"Application Support"/Steam/steamapps/common/Subnautica/Subnautica.app/Managed/UnityEngine.UI.dll</HintPath>
+      <HintPath>/Users/zachary/Library/Application Support/Steam/steamapps/common/Subnautica/Subnautica.app/Contents/Resources/Data/Managed/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VR">
-      <HintPath>~/"Application Support"/Steam/steamapps/common/Subnautica/Subnautica.app/Managed/UnityEngine.VR.dll</HintPath>
+      <HintPath>/Users/zachary/Library/Application Support/Steam/steamapps/common/Subnautica/Subnautica.app/Contents/Resources/Data/Managed/UnityEngine.VR.dll</HintPath>
     </Reference>
     <Reference Include="UnityScript.Lang">
-      <HintPath>~/"Application Support"/Steam/steamapps/common/Subnautica/Subnautica.app/Managed/UnityScript.Lang.dll</HintPath>
+      <HintPath>/Users/zachary/Library/Application Support/Steam/steamapps/common/Subnautica/Subnautica.app/Contents/Resources/Data/Managed/UnityScript.Lang.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
