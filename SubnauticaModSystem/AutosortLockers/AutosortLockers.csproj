@@ -35,7 +35,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="0Harmony">
-      <HintPath>Users/zachary/Library/Application Support/Steam/steamapps/common/Subnautica/Subnautica.app/Contents/Managed/0Harmony.dll</HintPath>
+      <HintPath>Users/zachary/Library/Application Support/Steam/steamapps/common/Subnautica/Subnautica.app/Contents/Resources
+        /Managed/0Harmony.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
