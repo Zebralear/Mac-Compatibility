@@ -127,8 +127,8 @@
   <Import Project="..\Common\Common.projitems" Label="Shared" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>xcopy $(TargetPath) ~/Steam/steamapps/common/Subnautica/\QMods\AutosortLockers/ /q /y
-xcopy $(ProjectDir)mod.json ~/Steam/steamapps/common/Subnautica/QMods\AutosortLockers/ /q /y
+    <PostBuildEvent>xcopy $(TargetPath) ~/Steam/steamapps/common/Subnautica/QMods/AutosortLockers/ /q /y
+xcopy $(ProjectDir)mod.json ~/Steam/steamapps/common/Subnautica/QMods/AutosortLockers/ /q /y
 xcopy $(ProjectDir)Assets ~/Steam/steamapps/common/Subnautica/QMods/AutosortLockers/Assets/ /q /y /i</PostBuildEvent>
   </PropertyGroup>
 </Project>
